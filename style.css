@@ -1,0 +1,145 @@
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color:#F9FAF8;
+    font-weight: 900;
+    font-size: 46px;
+    margin: 0px;
+}
+
+.button {
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+    padding: 8px 25px;
+    font-weight: bold;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-grow: 0;
+    align-content: center;
+    justify-content: center;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 16px;
+    width: 1025px;
+
+}
+
+.links {
+    list-style: none;    
+}
+
+a:link {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e5e7eb;
+    margin: 8px;
+}
+
+.hero {
+    display: flex;
+    flex: 1;
+    flex-grow: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8; 
+    gap: 150px;  
+}
+
+.hero .container {
+    padding: 100px 50px;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.cardimg {
+    width: 200px;
+    height: 200px;
+    border-image: 3px;
+    border-radius: 10px;
+    border: 3px solid #3882f6;
+}
+
+.card {
+ flex-direction: column;
+ max-width: 225px;
+ text-align: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote .text {
+    flex-direction: column;
+    max-width: 1200px;
+    font-size: 36px;
+    font-style: italic;
+    padding: 20px 80px;
+    text-align: justify;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    margin: 0%;   
+}
+
+.call .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1050px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 50px 150px;
+    margin: 100px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1F2937;
+    color: #F9FAF8;
+    height: 50px;
+    font-size: smaller;
+    font-weight: bold;
+}
